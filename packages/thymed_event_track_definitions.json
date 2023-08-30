@@ -1,0 +1,26 @@
+{
+	"objects": [
+		{
+			"aliases": [
+				"Track1"
+			],
+			"objclass": "ThymedEventTrackDefinition",
+			"objdata": {
+				"Track": "track1",
+				"EnergyCostPerNode": [
+					0
+				],
+				"EnergyCap": 80,
+				"EnergyRefillPeriodSeconds": 320,
+				"DownTab": "IMAGE_UI_CALENDAR_EVENT_DOWN",
+				"ActiveTab": "IMAGE_UI_CALENDAR_EVENT_ACTIVE",
+				"HintTexts": [
+					"Having trouble? Try a different tiering stat!",
+					"A wrong move and it's a restart. Keep restarting until you get the right solution!",
+					"A strategy a day keeps the zombies away! Plan your deck properly according to the set of zombies!"
+				]
+			}
+		}
+	],
+	"version": 1
+}

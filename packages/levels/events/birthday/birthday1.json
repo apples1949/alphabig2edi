@@ -1,0 +1,589 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "Thymed Event!",
+				"FirstIntroNarrative": "BIRTHDAY1_INTRO",
+				"ReplayIntroNarrative": "BIRTHDAY1_INTRO",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(ModernMowers@LevelModules)",
+					"RTID(SeedBankFreeChoose@LevelModules)",
+					"RTID(NewWaves@LevelModules)",
+					"RTID(TechnicalZombieOverride@LevelModules)"
+				],
+				"Name": "BRD-1: Born Celebration",
+				"StageModule": "RTID(BirthdayStage@LevelModules)"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManager"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 13,
+				"WaveCount": 13,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)",
+						"RTID(DoubleWaveMessage@LevelModules)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					],
+					[
+						"RTID(Wave11@CurrentLevel)"
+					],
+					[
+						"RTID(Wave12@CurrentLevel)"
+					],
+					[
+						"RTID(Wave13@CurrentLevel)",
+						"RTID(DoubleWaveMessage@LevelModules)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(doublewave@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave11"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave12"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(doublewave@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave13"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

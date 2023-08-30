@@ -1,0 +1,601 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "Thymed Event!",
+				"FirstRewardParam": "big_moneybag",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(ModernMowers@LevelModules)",
+					"RTID(Conveyor@CurrentLevel)",
+					"RTID(ChallengeModule@CurrentLevel)",
+					"RTID(NewWaves@LevelModules)"
+				],
+				"Name": "BRD-13: Objective: Annihilation",
+				"StageModule": "RTID(BirthdayStage@LevelModules)"
+			}
+		},
+		{
+			"aliases": [
+				"ConveyorBelt"
+			],
+			"objclass": "ConveyorSeedBankProperties",
+			"objdata": {
+				"DropDelayConditions": [
+					{
+						"Delay": 6.5,
+						"MaxPackets": 0
+					}
+				],
+				"InitialPlantList": [
+					{
+						"PlantType": "thymewarp",
+						"MaxCountCooldownSeconds": 90,
+						"MaxWeightFactor": 1,
+						"MaxCount": 1,
+						"Level": 2,
+						"Weight": 10000
+					},
+					{
+						"PlantType": "boingsetta",
+						"MaxDelivered": 1,
+						"Level": 0,
+						"Weight": 100000
+					},
+					{
+						"PlantType": "stallia",
+						"MaxCountCooldownSeconds": 20,
+						"MaxWeightFactor": 1,
+						"MaxCount": 1,
+						"Level": 1,
+						"Weight": 100
+					},
+					{
+						"PlantType": "repeater",
+						"MaxWeightFactor": 0.25,
+						"MaxCount": 5,
+						"Level": 0,
+						"Weight": 4
+					},
+					{
+						"PlantType": "tallnut",
+						"MaxWeightFactor": 0.25,
+						"MaxCount": 5,
+						"Level": 0,
+						"Weight": 3
+					},
+					{
+						"PlantType": "snowpea",
+						"Level": 0,
+						"Weight": 2
+					},
+					{
+						"PlantType": "stunion",
+						"Level": 0,
+						"Weight": 1
+					}
+				],
+				"SpeedConditions": [
+					{
+						"MaxPackets": 0,
+						"Speed": 80
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "NOTE: Only 1 Boingsetta is delivered.",
+				"DescriptiveName": ""
+			}
+		},
+		{
+			"aliases": [
+				"WaveManager"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 7,
+				"WaveCount": 14,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					],
+					[
+						"RTID(Wave11@CurrentLevel)"
+					],
+					[
+						"RTID(Wave12@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(prospector@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(prospector@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(chicken_farmer@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(prospector@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(west_bull@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(chicken_farmer@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(chicken_farmer@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(west_bull@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(prospector@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(chicken_farmer@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(west_bull@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(chicken_farmer@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(chicken_farmer@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(prospector@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(west_bull@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(chicken_farmer@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(west_bull@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave11"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(chicken_farmer@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(chicken_farmer@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(chicken_farmer@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(chicken_farmer@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(chicken_farmer@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(prospector@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave12"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(west_bull@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(west_bull@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(chicken_farmer@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(chicken_farmer@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(west_bull@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(chicken_farmer@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(chicken_farmer@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(prospector@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(prospector@ZombieTypes)"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

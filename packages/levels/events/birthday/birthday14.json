@@ -1,0 +1,1539 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "Thymed Event!",
+				"FirstRewardParam": "big_moneybag",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(ModernMowers@LevelModules)",
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(IZP@CurrentLevel)",
+					"RTID(SeedBank@.)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(ChallengeModule@CurrentLevel)",
+					"RTID(NewWaves@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(DefaultZombieWinCondition@LevelModules)"
+				],
+				"Name": "BRD-14: Packed Tundra",
+				"StageModule": "RTID(BirthdayStage@LevelModules)",
+				"MusicType": "MiniGame_A"
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PresetPlantList": [
+					{
+						"PlantType": "primalsunflower",
+						"Level": 0
+					},
+					{
+						"PlantType": "cabbagepult",
+						"Level": 2
+					},
+					{
+						"PlantType": "toadstool",
+						"Level": 0
+					},
+					{
+						"PlantType": "primalwallnut",
+						"Level": 2
+					},
+					{
+						"PlantType": "hotpotato",
+						"Level": 1
+					},
+					{
+						"PlantType": "primalpotatomine",
+						"Level": 2
+					},
+					{
+						"PlantType": "stallia",
+						"Level": 0
+					}
+				],
+				"SelectionMethod": "preset"
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)",
+						"RTID(KillZombiesOfType@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "Survive with the given plants\nNOTE: Normal Zombies are only spawned through Iceblock Necromancies.",
+				"DescriptiveName": ""
+			}
+		},
+		{
+			"aliases": [
+				"KillZombiesOfType"
+			],
+			"objclass": "DefeatZombiesOfTypeChallengeProps",
+			"objdata": {
+				"TypesToKill": {
+					"ListType": "includelist",
+					"List": [
+						"birthday",
+						"birthday_armor1",
+						"birthday_armor2"
+					]
+				},
+				"Description": "Defeat 115 normal zombies.",
+				"NumZombiesToKill": 115
+			}
+		},
+		{
+			"aliases": [
+				"IZP"
+			],
+			"objclass": "InitialZombieProperties",
+			"objdata": {
+				"InitialZombiePlacements": [
+					{
+						"GridX": 5,
+						"GridY": 0,
+						"TypeName": "iceage_imp",
+						"Condition": "icecubed"
+					},
+					{
+						"GridX": 6,
+						"GridY": 0,
+						"TypeName": "iceage_imp",
+						"Condition": "icecubed"
+					},
+					{
+						"GridX": 5,
+						"GridY": 1,
+						"TypeName": "iceage_imp",
+						"Condition": "icecubed"
+					},
+					{
+						"GridX": 7,
+						"GridY": 1,
+						"TypeName": "iceage_imp",
+						"Condition": "icecubed"
+					},
+					{
+						"GridX": 4,
+						"GridY": 2,
+						"TypeName": "iceage_imp",
+						"Condition": "icecubed"
+					},
+					{
+						"GridX": 6,
+						"GridY": 2,
+						"TypeName": "iceage_imp",
+						"Condition": "icecubed"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManager"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 7,
+				"WaveCount": 21,
+				"Waves": [
+					[
+						"RTID(Wave1@.)"
+					],
+					[
+						"RTID(Wave2@.)",
+						"RTID(Necro2@.)"
+					],
+					[
+						"RTID(Wave3@.)"
+					],
+					[
+						"RTID(Wave4@.)",
+						"RTID(Necro4@.)"
+					],
+					[
+						"RTID(Necro5@.)"
+					],
+					[
+						"RTID(Wave6@.)"
+					],
+					[
+						"RTID(Wave7@.)",
+						"RTID(Necro7@.)"
+					],
+					[
+						"RTID(Wave8@.)",
+						"RTID(Necro8@.)"
+					],
+					[
+						"RTID(Wave9@.)",
+						"RTID(Necro9@.)"
+					],
+					[
+						"RTID(Wave10@.)",
+						"RTID(Necro10@.)"
+					],
+					[
+						"RTID(Wave11@.)",
+						"RTID(Necro11@.)"
+					],
+					[
+						"RTID(Wave12@.)",
+						"RTID(Necro12@.)"
+					],
+					[
+						"RTID(Wave13@.)",
+						"RTID(Necro13@.)"
+					],
+					[
+						"RTID(Wave14@.)",
+						"RTID(Necro14@.)"
+					],
+					[
+						"RTID(Wave15@.)",
+						"RTID(Necro15@.)"
+					],
+					[
+						"RTID(Wave16@.)"
+					],
+					[
+						"RTID(Wave17@.)",
+						"RTID(Necro17@.)"
+					],
+					[
+						"RTID(Wave18@.)",
+						"RTID(Necro18@.)"
+					],
+					[
+						"RTID(Wave19@.)"
+					],
+					[
+						"RTID(Wave20@.)",
+						"RTID(Necro20@.)"
+					],
+					[
+						"RTID(Wave21@.)",
+						"RTID(Necro21@.)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_troglobite_2block@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_troglobite_2block@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_troglobite_1block@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_weaselhoarder@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_troglobite_1block@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_troglobite_1block@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_troglobite_hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(iceage_weaselhoarder@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_troglobite_1block@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_weaselhoarder@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_troglobite_1block@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave11"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave12"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(iceage_weaselhoarder@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave13"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_troglobite_2block@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_troglobite_1block@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_troglobite_1block@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_troglobite_2block@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_troglobite_2block@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_troglobite_1block@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave14"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(iceage_weaselhoarder@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_weaselhoarder@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave15"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_weaselhoarder@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave16"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave17"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave18"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_weaselhoarder@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(iceage_weaselhoarder@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_troglobite_1block@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave19"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_troglobite_1block@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_troglobite_1block@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_troglobite_1block@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_troglobite_2block@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_troglobite_2block@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave20"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_troglobite_hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_troglobite_hellbird@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_troglobite_hellbird@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave21"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_weaselhoarder@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_troglobite_1block@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_weaselhoarder@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_troglobite_1block@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro2"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "",
+				"ZombieSpawnWaitTime": 2,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(planttarget_iceblock@GridItemTypes)",
+					"RTID(zombietarget_iceblock@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro4"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "",
+				"ZombieSpawnWaitTime": 2,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(planttarget_iceblock@GridItemTypes)",
+					"RTID(zombietarget_iceblock@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro5"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "",
+				"ZombieSpawnWaitTime": 2,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(planttarget_iceblock@GridItemTypes)",
+					"RTID(zombietarget_iceblock@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro7"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "",
+				"ZombieSpawnWaitTime": 2,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(planttarget_iceblock@GridItemTypes)",
+					"RTID(zombietarget_iceblock@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro8"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "",
+				"ZombieSpawnWaitTime": 2,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(planttarget_iceblock@GridItemTypes)",
+					"RTID(zombietarget_iceblock@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro9"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "",
+				"ZombieSpawnWaitTime": 2,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(planttarget_iceblock@GridItemTypes)",
+					"RTID(zombietarget_iceblock@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro10"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "",
+				"ZombieSpawnWaitTime": 2,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(planttarget_iceblock@GridItemTypes)",
+					"RTID(zombietarget_iceblock@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro11"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "",
+				"ZombieSpawnWaitTime": 2,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(planttarget_iceblock@GridItemTypes)",
+					"RTID(zombietarget_iceblock@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro12"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "",
+				"ZombieSpawnWaitTime": 2,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(planttarget_iceblock@GridItemTypes)",
+					"RTID(zombietarget_iceblock@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro13"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "",
+				"ZombieSpawnWaitTime": 2,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(planttarget_iceblock@GridItemTypes)",
+					"RTID(zombietarget_iceblock@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro14"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "",
+				"ZombieSpawnWaitTime": 2,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(planttarget_iceblock@GridItemTypes)",
+					"RTID(zombietarget_iceblock@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro15"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "",
+				"ZombieSpawnWaitTime": 2,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(planttarget_iceblock@GridItemTypes)",
+					"RTID(zombietarget_iceblock@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro17"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "",
+				"ZombieSpawnWaitTime": 2,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(planttarget_iceblock@GridItemTypes)",
+					"RTID(zombietarget_iceblock@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro18"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "",
+				"ZombieSpawnWaitTime": 2,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(planttarget_iceblock@GridItemTypes)",
+					"RTID(zombietarget_iceblock@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro20"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "",
+				"ZombieSpawnWaitTime": 2,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(planttarget_iceblock@GridItemTypes)",
+					"RTID(zombietarget_iceblock@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro21"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "",
+				"ZombieSpawnWaitTime": 2,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(planttarget_iceblock@GridItemTypes)",
+					"RTID(zombietarget_iceblock@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+		}
+	],
+	"version": 1
+}

@@ -1,0 +1,1254 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "Thymed Event!",
+				"FirstRewardParam": "big_moneybag",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"ResourceGroupNames": [
+					"Tombstone_Dark_Special",
+					"Tombstone_Dark_Effects"
+				],
+				"Modules": [
+					"RTID(TechnicalZombieOverride@LevelModules)",
+					"RTID(ModernMowers@LevelModules)",
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(GI@CurrentLevel)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(NewWaves@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(DefaultZombieWinCondition@LevelModules)"
+				],
+				"Name": "BRD-10: Hollow Ground",
+				"StageModule": "RTID(BirthdayNightStage@LevelModules)"
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PresetPlantList": [
+					{
+						"PlantType": "gravebuster",
+						"Level": 1
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"GI"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 5,
+						"GridY": 0,
+						"TypeName": "gravestone_tutorial"
+					},
+					{
+						"GridX": 6,
+						"GridY": 1,
+						"TypeName": "gravestone_tutorial"
+					},
+					{
+						"GridX": 5,
+						"GridY": 2,
+						"TypeName": "gravestone_tutorial"
+					},
+					{
+						"GridX": 6,
+						"GridY": 2,
+						"TypeName": "gravestone_tutorial"
+					},
+					{
+						"GridX": 5,
+						"GridY": 3,
+						"TypeName": "gravestone_tutorial"
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "gravestone_tutorial"
+					},
+					{
+						"GridX": 7,
+						"GridY": 4,
+						"TypeName": "gravestone_tutorial"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManager"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 8,
+				"WaveCount": 16,
+				"Waves": [
+					[
+						"RTID(Wave1@.)"
+					],
+					[
+						"RTID(Wave2@.)"
+					],
+					[
+						"RTID(Wave3@.)"
+					],
+					[
+						"RTID(Wave4@.)"
+					],
+					[
+						"RTID(Wave5@.)",
+						"RTID(GridSpawn7@.)"
+					],
+					[
+						"RTID(Wave6@.)"
+					],
+					[
+						"RTID(Wave7@.)"
+					],
+					[
+						"RTID(Wave8@.)",
+						"RTID(Necro8@.)"
+					],
+					[
+						"RTID(Wave9@.)",
+						"RTID(GridSpawn10@.)"
+					],
+					[
+						"RTID(Wave10@.)"
+					],
+					[
+						"RTID(Wave11@.)"
+					],
+					[
+						"RTID(Wave12@.)"
+					],
+					[
+						"RTID(Wave13@.)",
+						"RTID(Necro12@.)"
+					],
+					[
+						"RTID(Wave14@.)",
+						"RTID(GridSpawn14@.)"
+					],
+					[
+						"RTID(Wave15@.)"
+					],
+					[
+						"RTID(Wave16@.)",
+						"RTID(Necro16@.)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(night_camel@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(night_camel@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(night_camel@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(explorer@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave11"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(night_camel@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(night_camel@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(night_camel@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave12"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(night_camel@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(night_camel@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave13"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(explorer@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave14"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave15"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(night_camel@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(night_camel@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(night_camel@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave16"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(barrel_air@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(night_camel@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(night_camel@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(explorer@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GridSpawn7"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 7,
+						"Type": "RTID(gravestone_tutorial@GridItemTypes)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 4,
+						"mY": 0
+					},
+					{
+						"mX": 5,
+						"mY": 0
+					},
+					{
+						"mX": 6,
+						"mY": 0
+					},
+					{
+						"mX": 4,
+						"mY": 1
+					},
+					{
+						"mX": 5,
+						"mY": 1
+					},
+					{
+						"mX": 6,
+						"mY": 1
+					},
+					{
+						"mX": 4,
+						"mY": 2
+					},
+					{
+						"mX": 5,
+						"mY": 2
+					},
+					{
+						"mX": 6,
+						"mY": 2
+					},
+					{
+						"mX": 4,
+						"mY": 3
+					},
+					{
+						"mX": 5,
+						"mY": 3
+					},
+					{
+						"mX": 6,
+						"mY": 3
+					},
+					{
+						"mX": 4,
+						"mY": 4
+					},
+					{
+						"mX": 5,
+						"mY": 4
+					},
+					{
+						"mX": 6,
+						"mY": 4
+					}
+				],
+				"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+				"DisplacePlants": true,
+				"RandomPlacement": true,
+				"ShakeScreen": false,
+				"GridClassesToDestroy": [
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro8"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "Necromancy!",
+				"ZombieSpawnWaitTime": 0,
+				"SuppressActionIfNoGridItemsFound": true,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(gravestone_tutorial@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GridSpawn10"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 8,
+						"Type": "RTID(gravestone_tutorial@GridItemTypes)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 4,
+						"mY": 0
+					},
+					{
+						"mX": 5,
+						"mY": 0
+					},
+					{
+						"mX": 6,
+						"mY": 0
+					},
+					{
+						"mX": 4,
+						"mY": 1
+					},
+					{
+						"mX": 5,
+						"mY": 1
+					},
+					{
+						"mX": 6,
+						"mY": 1
+					},
+					{
+						"mX": 4,
+						"mY": 2
+					},
+					{
+						"mX": 5,
+						"mY": 2
+					},
+					{
+						"mX": 6,
+						"mY": 2
+					},
+					{
+						"mX": 4,
+						"mY": 3
+					},
+					{
+						"mX": 5,
+						"mY": 3
+					},
+					{
+						"mX": 6,
+						"mY": 3
+					},
+					{
+						"mX": 4,
+						"mY": 4
+					},
+					{
+						"mX": 5,
+						"mY": 4
+					},
+					{
+						"mX": 6,
+						"mY": 4
+					}
+				],
+				"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+				"DisplacePlants": true,
+				"RandomPlacement": true,
+				"ShakeScreen": false,
+				"GridClassesToDestroy": [
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro12"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "Necromancy!",
+				"ZombieSpawnWaitTime": 0,
+				"SuppressActionIfNoGridItemsFound": true,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(gravestone_tutorial@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GridSpawn14"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 5,
+						"Type": "RTID(gravestone_tutorial@GridItemTypes)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 3,
+						"mY": 0
+					},
+					{
+						"mX": 4,
+						"mY": 0
+					},
+					{
+						"mX": 5,
+						"mY": 0
+					},
+					{
+						"mX": 3,
+						"mY": 1
+					},
+					{
+						"mX": 4,
+						"mY": 1
+					},
+					{
+						"mX": 5,
+						"mY": 1
+					},
+					{
+						"mX": 3,
+						"mY": 2
+					},
+					{
+						"mX": 4,
+						"mY": 2
+					},
+					{
+						"mX": 5,
+						"mY": 2
+					},
+					{
+						"mX": 3,
+						"mY": 3
+					},
+					{
+						"mX": 4,
+						"mY": 3
+					},
+					{
+						"mX": 5,
+						"mY": 3
+					},
+					{
+						"mX": 3,
+						"mY": 4
+					},
+					{
+						"mX": 4,
+						"mY": 4
+					},
+					{
+						"mX": 5,
+						"mY": 4
+					}
+				],
+				"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+				"DisplacePlants": true,
+				"RandomPlacement": true,
+				"ShakeScreen": false,
+				"GridClassesToDestroy": [
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Necro16"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "Necromancy!",
+				"ZombieSpawnWaitTime": 0,
+				"SuppressActionIfNoGridItemsFound": true,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [
+					"RTID(gravestone_tutorial@GridItemTypes)"
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(night_camel@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(night_camel@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(night_camel@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+		}
+	],
+	"version": 1
+}
