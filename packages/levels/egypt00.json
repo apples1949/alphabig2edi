@@ -1,38 +1,492 @@
 {
-	"#comment": "Enter your password to gain access. | ELM: Ver-10 [ECL Alpha 4.5]",
-	"#zombies": "password@, not_password@",
 	"objects": [
 		{
 			"objclass": "LevelDefinition",
 			"objdata": {
-				"StartingSun": 225,
+				"StartingSun": 450,
 				"Description": "?",
 				"FirstRewardParam": "big_moneybag",
 				"SuppressAccountUpgrades": true,
 				"AddBonusStartingSun": false,
-				"NormalPresentTable": "egypt_normal_01",
-				"ShinyPresentTable": "egypt_shiny_01",
 				"Loot": "RTID(DefaultLoot@LevelModules)",
-				"ResourceGroupNames": [
-					"DelayLoad_Background_Beach",
-					"DelayLoad_Background_Beach_Compressed",
-					"Tombstone_Dark_Special",
-					"Tombstone_Dark_Effects"
-				],
 				"Modules": [
-					"RTID(TechnicalZombieOverride@LevelModules)",
-					"RTID(PirateBarrel30FPS@LevelModules)",
 					"RTID(StandardIntro@LevelModules)",
 					"RTID(SeedBank@CurrentLevel)",
 					"RTID(CooldownMultiplier@CurrentLevel)",
 					"RTID(BowlingLine@CurrentLevel)",
-					"RTID(Escalation@CurrentLevel)",
-					"RTID(NewWaves@CurrentLevel)",
+					"RTID(NewWaves@LevelModules)",
+					"RTID(GI@CurrentLevel)",
+					"RTID(IZP@CurrentLevel)",
 					"RTID(ZombiesDeadWinCon@LevelModules)",
 					"RTID(DefaultZombieWinCondition@LevelModules)"
 				],
 				"Name": "Enter your password to gain access.",
 				"StageModule": "RTID(ModernStage@LevelModules)"
+			}
+		},
+		{
+			"aliases": [
+				"GI"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 0,
+						"GridY": 0,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 0,
+						"GridY": 1,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 0,
+						"GridY": 2,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 0,
+						"GridY": 3,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 0,
+						"GridY": 4,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 1,
+						"GridY": 0,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 1,
+						"GridY": 1,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 1,
+						"GridY": 2,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 1,
+						"GridY": 3,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 1,
+						"GridY": 4,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 2,
+						"GridY": 0,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 2,
+						"GridY": 1,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 2,
+						"GridY": 2,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 2,
+						"GridY": 3,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 2,
+						"GridY": 4,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 3,
+						"GridY": 0,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 3,
+						"GridY": 1,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 3,
+						"GridY": 2,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 3,
+						"GridY": 3,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 3,
+						"GridY": 4,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 4,
+						"GridY": 0,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 4,
+						"GridY": 1,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 4,
+						"GridY": 2,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 4,
+						"GridY": 3,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 4,
+						"GridY": 4,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 5,
+						"GridY": 0,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 5,
+						"GridY": 1,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 5,
+						"GridY": 2,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 5,
+						"GridY": 3,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 5,
+						"GridY": 4,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 6,
+						"GridY": 0,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 6,
+						"GridY": 1,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 6,
+						"GridY": 2,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 6,
+						"GridY": 3,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 7,
+						"GridY": 0,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 7,
+						"GridY": 1,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 7,
+						"GridY": 2,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 7,
+						"GridY": 3,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 7,
+						"GridY": 4,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 8,
+						"GridY": 0,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 8,
+						"GridY": 1,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 8,
+						"GridY": 2,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 8,
+						"GridY": 3,
+						"TypeName": "traptile_1"
+					},
+					{
+						"GridX": 8,
+						"GridY": 4,
+						"TypeName": "traptile_1"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"TrapTile_1"
+			],
+			"objclass": "GridItemProjectileTrapProps",
+			"objdata": {
+				"Height": "ground",
+				"PopAnim": "POPANIM_BACKGROUNDS_BUGTILE",
+				"PopAnimRenderOffset": {
+					"x": 99999,
+					"y": 139
+				},
+				"PopAnimRigClass": "EffectAnimRig_SwitchTile",
+				"ProjectileFireOriginOffset": {
+					"x": 0,
+					"y": 0,
+					"z": 100
+				},
+				"ProjectileTypeToSpawn": "RTID(Pro@.)",
+				"TileBaseAnimation": "bouldertile",
+				"TimeBetweenTriggersInSeconds": 99999999,
+				"TriggerRect": {
+					"mHeight": 0,
+					"mWidth": 4,
+					"mX": -2,
+					"mY": 4
+				},
+				"TriggeringEntityTypes": [
+					"plant"
+				]
+			}
+		},
+		{
+			"objclass": "ProjectilePropertySheet",
+			"aliases": [
+				"Pro"
+			],
+			"objdata": {
+				"BaseDamage": 1,
+				"SplashDamage": 1,
+				"SplashRadius": 0.01,
+				"CollisionFlags": [
+					"all_zombies",
+					"ground"
+				],
+				"DamageFlags": [
+					"no_flash"
+				],
+				"DiesOnImpact": true,
+				"HasShadow": false,
+				"InitialVelocity": [
+					{
+						"Min": 0.0,
+						"Max": 0.0
+					},
+					{
+						"Min": 0.0,
+						"Max": 0.0
+					},
+					{
+						"Min": -100.0,
+						"Max": -100.0
+					}
+				],
+				"InitialAcceleration": [
+					{
+						"Min": 0.0,
+						"Max": 0.0
+					},
+					{
+						"Min": 0.0,
+						"Max": 0.0
+					},
+					{
+						"Min": 0.0,
+						"Max": 0.0
+					}
+				],
+				"InitialScale": {
+					"Min": 0.0,
+					"Max": 0.0
+				},
+				"RenderImage": "IMAGE_EFFECTS_ZOMBIE_HUNTER_SNOWBALL_PROJECTILE",
+				"CollisionRect": {
+					"mX": -15.0,
+					"mY": -15.0,
+					"mWidth": 30.0,
+					"mHeight": 30.0
+				},
+				"ImpactSoundEvent": "",
+				"ImpactSoundThrottleTimer": 0.07500000000000001,
+				"ImpactPAM": "",
+				"ImpactPAMAnimationToPlay": [
+					""
+				],
+				"ImpactOffset": [
+					{
+						"Min": 0.0,
+						"Max": 0.0
+					},
+					{
+						"Min": 0.0,
+						"Max": 0.0
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ZombieTutorialTemplate1"
+			],
+			"objclass": "ZombiePropertySheet",
+			"objdata": {
+				"ArtCenter": {
+					"x": 999999,
+					"y": 125
+				},
+				"AttackRect": {
+					"mHeight": 65,
+					"mWidth": 10,
+					"mX": 6,
+					"mY": 0
+				},
+				"CanSpawnPlantFood": true,
+				"Cost": 150,
+				"EatDPS": 100,
+				"GroundTrackName": "ground_swatch",
+				"HitRect": {
+					"mHeight": 95,
+					"mWidth": 26,
+					"mX": 13,
+					"mY": 10
+				},
+				"Hitpoints": 1,
+				"ScaledProps": [
+					{
+						"Arg1": 1.05,
+						"Arg2": 0.05,
+						"Formula": "standard",
+						"Key": "Hitpoints"
+					},
+					{
+						"Arg1": 1,
+						"Arg2": 0.1,
+						"Formula": "standard",
+						"Key": "EatDPS"
+					},
+					{
+						"Arg1": 1,
+						"Arg2": 0.01,
+						"Formula": "standard",
+						"Key": "Speed"
+					}
+				],
+				"ShadowOffset": {
+					"x": 999999999,
+					"y": 0,
+					"z": 1.2
+				},
+				"Speed": 0,
+				"ScoreOverride": 10,
+				"WavePointCost": 100,
+				"Weight": 1000,
+				"ZombieStats": [
+					{
+						"Type": "toughness",
+						"Value": "fullboard"
+					},
+					{
+						"Type": "speed",
+						"Value": "speed2"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"IZP"
+			],
+			"objclass": "InitialZombieProperties",
+			"objdata": {
+				"InitialZombiePlacements": [
+					{
+						"GridX": 0,
+						"GridY": 0,
+						"TypeName": "tutorial_template1"
+					},
+					{
+						"GridX": 1,
+						"GridY": 2,
+						"TypeName": "tutorial_template1"
+					},
+					{
+						"GridX": 2,
+						"GridY": 0,
+						"TypeName": "tutorial_template1"
+					},
+					{
+						"GridX": 3,
+						"GridY": 3,
+						"TypeName": "tutorial_template1"
+					},
+					{
+						"GridX": 4,
+						"GridY": 3,
+						"TypeName": "tutorial_template1"
+					},
+					{
+						"GridX": 5,
+						"GridY": 2,
+						"TypeName": "tutorial_template1"
+					},
+					{
+						"GridX": 6,
+						"GridY": 0,
+						"TypeName": "tutorial_template1"
+					},
+					{
+						"GridX": 7,
+						"GridY": 4,
+						"TypeName": "tutorial_template1"
+					},
+					{
+						"GridX": 8,
+						"GridY": 4,
+						"TypeName": "tutorial_template1"
+					}
+				]
 			}
 		},
 		{
@@ -43,7 +497,7 @@
 			"objdata": {
 				"PresetPlantList": [
 					{
-						"PlantType": "custom_potatomine",
+						"PlantType": "wallnut",
 						"Level": 0
 					}
 				],
@@ -70,32 +524,6 @@
 		},
 		{
 			"aliases": [
-				"BeatTheLevel"
-			],
-			"objclass": "StarChallengeBeatTheLevelProps",
-			"objdata": {
-				"Description": "Survive without the shovel\nSurvive without passive upgrades\nAll seed packets have no recharge\nSurvive the zombie attack with the given plant",
-				"DescriptiveName": "Custom Objective"
-			}
-		},
-		{
-			"aliases": [
-				"Escalation"
-			],
-			"objclass": "LevelEscalationModuleProperties",
-			"objdata": {
-				"FlagCount": 1,
-				"WavesPerFlag": 1,
-				"PlantfoodToSpawnCount": 0,
-				"StartingPoints": 0,
-				"PointIncrementPerWave": 0,
-				"WaveManagerProps": "RTID(WaveManager@CurrentLevel)",
-				"ZombiePool": [
-				]
-			}
-		},
-		{
-			"aliases": [
 				"NewWaves"
 			],
 			"objclass": "WaveManagerModuleProperties",
@@ -113,494 +541,9 @@
 				"SuppressFlagZombie": true,
 				"Waves": [
 					[
-						"RTID(GroundSpawn1_C0@.)",
-						"RTID(GroundSpawn1_C1@.)",
-						"RTID(GroundSpawn1_C2@.)",
-						"RTID(GroundSpawn1_C3@.)",
-						"RTID(GroundSpawn1_C4@.)",
-						"RTID(GroundSpawn1_C5@.)",
-						"RTID(GroundSpawn1_C6@.)",
-						"RTID(GroundSpawn1_C7@.)",
-						"RTID(GroundSpawn1_C8@.)"
 					]
 				]
 			}
-		},
-		{
-			"aliases": [
-				"GroundSpawn1_C0"
-			],
-			"objclass": "SpawnZombiesFromGroundSpawnerProps",
-			"objdata": {
-				"AdditionalPlantfood": "0",
-				"ColumnStart": 0,
-				"ColumnEnd": 1,
-				"Zombies": [
-					{
-						"Row": "1",
-						"Type": "RTID(password@CurrentLevel)"
-					},
-					{
-						"Row": "2",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "3",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "4",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "5",
-						"Type": "RTID(not_password@CurrentLevel)"
-					}
-				]
-			}
-		},
-		{
-			"aliases": [
-				"GroundSpawn1_C1"
-			],
-			"objclass": "SpawnZombiesFromGroundSpawnerProps",
-			"objdata": {
-				"AdditionalPlantfood": "0",
-				"ColumnStart": 1,
-				"ColumnEnd": 2,
-				"Zombies": [
-					{
-						"Row": "1",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "2",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "3",
-						"Type": "RTID(password@CurrentLevel)"
-					},
-					{
-						"Row": "4",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "5",
-						"Type": "RTID(not_password@CurrentLevel)"
-					}
-				]
-			}
-		},
-		{
-			"aliases": [
-				"GroundSpawn1_C2"
-			],
-			"objclass": "SpawnZombiesFromGroundSpawnerProps",
-			"objdata": {
-				"AdditionalPlantfood": "0",
-				"ColumnStart": 2,
-				"ColumnEnd": 3,
-				"Zombies": [
-					{
-						"Row": "1",
-						"Type": "RTID(password@CurrentLevel)"
-					},
-					{
-						"Row": "2",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "3",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "4",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "5",
-						"Type": "RTID(not_password@CurrentLevel)"
-					}
-				]
-			}
-		},
-		{
-			"aliases": [
-				"GroundSpawn1_C3"
-			],
-			"objclass": "SpawnZombiesFromGroundSpawnerProps",
-			"objdata": {
-				"AdditionalPlantfood": "0",
-				"ColumnStart": 3,
-				"ColumnEnd": 4,
-				"Zombies": [
-					{
-						"Row": "1",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "2",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "3",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "4",
-						"Type": "RTID(password@CurrentLevel)"
-					},
-					{
-						"Row": "5",
-						"Type": "RTID(not_password@CurrentLevel)"
-					}
-				]
-			}
-		},
-		{
-			"aliases": [
-				"GroundSpawn1_C4"
-			],
-			"objclass": "SpawnZombiesFromGroundSpawnerProps",
-			"objdata": {
-				"AdditionalPlantfood": "0",
-				"ColumnStart": 4,
-				"ColumnEnd": 5,
-				"Zombies": [
-					{
-						"Row": "1",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "2",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "3",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "4",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "5",
-						"Type": "RTID(password@CurrentLevel)"
-					}
-				]
-			}
-		},
-		{
-			"aliases": [
-				"GroundSpawn1_C5"
-			],
-			"objclass": "SpawnZombiesFromGroundSpawnerProps",
-			"objdata": {
-				"AdditionalPlantfood": "0",
-				"ColumnStart": 5,
-				"ColumnEnd": 6,
-				"Zombies": [
-					{
-						"Row": "1",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "2",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "3",
-						"Type": "RTID(password@CurrentLevel)"
-					},
-					{
-						"Row": "4",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "5",
-						"Type": "RTID(not_password@CurrentLevel)"
-					}
-				]
-			}
-		},
-		{
-			"aliases": [
-				"GroundSpawn1_C6"
-			],
-			"objclass": "SpawnZombiesFromGroundSpawnerProps",
-			"objdata": {
-				"AdditionalPlantfood": "0",
-				"ColumnStart": 6,
-				"ColumnEnd": 7,
-				"Zombies": [
-					{
-						"Row": "1",
-						"Type": "RTID(password@CurrentLevel)"
-					},
-					{
-						"Row": "2",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "3",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "4",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "5",
-						"Type": "RTID(not_password@CurrentLevel)"
-					}
-				]
-			}
-		},
-		{
-			"aliases": [
-				"GroundSpawn1_C7"
-			],
-			"objclass": "SpawnZombiesFromGroundSpawnerProps",
-			"objdata": {
-				"AdditionalPlantfood": "0",
-				"ColumnStart": 7,
-				"ColumnEnd": 8,
-				"Zombies": [
-					{
-						"Row": "1",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "2",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "3",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "4",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "5",
-						"Type": "RTID(password@CurrentLevel)"
-					}
-				]
-			}
-		},
-		{
-			"aliases": [
-				"GroundSpawn1_C8"
-			],
-			"objclass": "SpawnZombiesFromGroundSpawnerProps",
-			"objdata": {
-				"AdditionalPlantfood": "0",
-				"ColumnStart": 8,
-				"ColumnEnd": 9,
-				"Zombies": [
-					{
-						"Row": "1",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "2",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "3",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "4",
-						"Type": "RTID(not_password@CurrentLevel)"
-					},
-					{
-						"Row": "5",
-						"Type": "RTID(password@CurrentLevel)"
-					}
-				]
-			}
-		},
-		{
-			"objclass": "ZombieType",
-			"aliases": [
-				"password"
-			],
-			"objdata": {
-				"TypeName": "tutorial",
-				"ZombieClass": "ZombieBasic",
-				"Properties": "RTID(ZombiePasswordDefault@.)",
-				"ResourceGroups": [
-					"ZombieTutorialGroup"
-				],
-				"AudioGroups": [
-				],
-				"AnimRigClass": "ZombieAnimRig_Tutorial",
-				"PopAnim": "POPANIM_ZOMBIE_ZOMBIE_TUTORIAL",
-				"HomeWorld": "modern",
-				"IsBasicZombie": true
-			}
-		},
-		{
-			"aliases": [
-				"ZombieNotPasswordDefault"
-			],
-			"objclass": "ZombiePropertySheet",
-			"objdata": {
-				"ArtCenter": {
-					"x": 90,
-					"y": 125
-				},
-				"AttackRect": {
-					"mHeight": 65,
-					"mWidth": 10,
-					"mX": 6,
-					"mY": 0
-				},
-				"CanSpawnPlantFood": true,
-				"Cost": 150,
-				"EatDPS": 100,
-				"GroundTrackName": "ground_swatch",
-				"HitRect": {
-					"mHeight": 95,
-					"mWidth": 26,
-					"mX": 13,
-					"mY": 10
-				},
-				"Hitpoints": 1,
-				"ScaledProps": [
-					{
-						"Arg1": 1.05,
-						"Arg2": 0.05,
-						"Formula": "standard",
-						"Key": "Hitpoints"
-					},
-					{
-						"Arg1": 1,
-						"Arg2": 0.1,
-						"Formula": "standard",
-						"Key": "EatDPS"
-					},
-					{
-						"Arg1": 1,
-						"Arg2": 0.01,
-						"Formula": "standard",
-						"Key": "Speed"
-					}
-				],
-				"CanSurrender": true,
-				"ShadowOffset": {
-					"x": 5,
-					"y": 0,
-					"z": 1.4
-				},
-				"Speed": 0,
-				"ScoreOverride": 10,
-				"WavePointCost": 100,
-				"Weight": 1000,
-				"ZombieStats": [
-					{
-						"Type": "toughness",
-						"Value": "fullboard"
-					},
-					{
-						"Type": "speed",
-						"Value": "speed2"
-					}
-				]
-			}
-		},
-		{
-			"objclass": "ZombieType",
-			"aliases": [
-				"not_password"
-			],
-			"objdata": {
-				"TypeName": "tutorial",
-				"ZombieClass": "ZombieBasic",
-				"Properties": "RTID(ZombieNotPasswordDefault@.)",
-				"ResourceGroups": [
-					"ZombieTutorialGroup"
-				],
-				"AudioGroups": [
-				],
-				"AnimRigClass": "ZombieAnimRig_Tutorial",
-				"PopAnim": "POPANIM_ZOMBIE_ZOMBIE_TUTORIAL",
-				"HomeWorld": "modern",
-				"IsBasicZombie": true
-			}
-		},
-		{
-			"aliases": [
-				"ZombiePasswordDefault"
-			],
-			"objclass": "ZombiePropertySheet",
-			"objdata": {
-				"ArtCenter": {
-					"x": 90,
-					"y": 125
-				},
-				"AttackRect": {
-					"mHeight": 65,
-					"mWidth": 10,
-					"mX": 6,
-					"mY": 0
-				},
-				"CanSpawnPlantFood": true,
-				"Cost": 150,
-				"EatDPS": 100,
-				"GroundTrackName": "ground_swatch",
-				"HitRect": {
-					"mHeight": 95,
-					"mWidth": 26,
-					"mX": 13,
-					"mY": 10
-				},
-				"Hitpoints": 1,
-				"ScaledProps": [
-					{
-						"Arg1": 1.05,
-						"Arg2": 0.05,
-						"Formula": "standard",
-						"Key": "Hitpoints"
-					},
-					{
-						"Arg1": 1,
-						"Arg2": 0.1,
-						"Formula": "standard",
-						"Key": "EatDPS"
-					},
-					{
-						"Arg1": 1,
-						"Arg2": 0.01,
-						"Formula": "standard",
-						"Key": "Speed"
-					}
-				],
-				"ShadowOffset": {
-					"x": 5,
-					"y": 0,
-					"z": 1.4
-				},
-				"Speed": 0,
-				"ScoreOverride": 10,
-				"WavePointCost": 100,
-				"Weight": 1000,
-				"ZombieStats": [
-					{
-						"Type": "toughness",
-						"Value": "fullboard"
-					},
-					{
-						"Type": "speed",
-						"Value": "speed2"
-					}
-				]
-			}
-		},
-		{
 		}
 	],
 	"version": 1

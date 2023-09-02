@@ -2439,7 +2439,7 @@
 						"StatType": "damage",
 						"StatValue": "damage0",
 						"TypeStringID": "SUN PER HP",
-						"ValueStringID": "0.24"
+						"ValueStringID": "0.25 -- 0.5 -- 1"
 					},
 					{
 						"LevelToUnlock": "0",
@@ -3307,11 +3307,11 @@
 					{
 						"LevelToUnlock": "0",
 						"StatName": "AKEE_Slow",
-						"StatNameAlias": "Special",
+						"StatNameAlias": "Slow",
 						"StatType": "special",
-						"StatValue": "special_slow",
-						"TypeStringID": "[STAT_SPECIAL]",
-						"ValueStringID": "[STAT_SPECIAL_SLOW_AKEE]"
+						"StatValue": "special_slow_akee",
+						"TypeStringID": "20%",
+						"ValueStringID": ""
 					}
 				],
 				"TypeName": "akee"
@@ -5105,6 +5105,15 @@
 					},
 					{
 						"LevelToUnlock": "0",
+						"StatName": "Chomper_GobbleCapacity",
+						"StatNameAlias": "Gobble Capacity",
+						"StatType": "damage",
+						"StatValue": "damage0",
+						"TypeStringID": "GOBBLE CAPACITY",
+						"ValueStringID": ""
+					},
+					{
+						"LevelToUnlock": "0",
 						"StatName": "Almanac_Damage",
 						"StatNameAlias": "Damage",
 						"StatType": "damage",
@@ -6258,7 +6267,7 @@
 						"StatType": "area",
 						"StatValue": "3by3",
 						"TypeStringID": "[STAT_AREA]",
-						"ValueStringID": "1x1 -- 1x1 -- 3x3"
+						"ValueStringID": "1x1 -- 3x3 -- 5x5"
 					}
 				],
 				"TypeName": "shrinkingviolet"
@@ -8450,8 +8459,8 @@
 						"LevelToUnlock": "0",
 						"StatName": "Almanac_Damage",
 						"StatNameAlias": "Damage",
-						"StatType": "armor",
-						"StatValue": "armor1",
+						"StatType": "damage",
+						"StatValue": "damage1",
 						"TypeStringID": "DAMAGE OF ALL STAGES",
 						"ValueStringID": "80 -- 180 -- 400"
 					}

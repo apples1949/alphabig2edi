@@ -6151,7 +6151,7 @@
 				"MaxAmmo": 3,
 				"AmmoRefreshTime": 1.7000000000000002,
 				"#comment": "+ 0.8s due to animation smh",
-				"RegenOrder": "lms",
+				"RegenOrder": "sml",
 				"PlantFoodActivationSound": "",
 				"ArtCenter": {
 					"x": 99,
@@ -7337,6 +7337,12 @@
 				],
 				"#comment Toadstool": "HERE ARE TOADSTOOLS TWEAKABLE VALUES!",
 				"ZombieChewExcludelist": [
+					"birthday",
+					"birthday_armor1",
+					"birthday_armor2",
+					"birthday_gargantuar",
+					"birthday_pharaoh",
+					"birthday_barrelroller",
 					"dummy",
 					"dummy2",
 					"wave_delayer",

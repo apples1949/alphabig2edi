@@ -11,7 +11,7 @@
 					"RTID(DefaultZombieWinCondition@LevelModules)",
 					"RTID(ZombiesDeadWinCon@LevelModules)",
 					"RTID(ModernMowers@LevelModules)",
-					"RTID(Conveyor@CurrentLevel)",
+					"RTID(ConveyorBelt@CurrentLevel)",
 					"RTID(ChallengeModule@CurrentLevel)",
 					"RTID(NewWaves@LevelModules)"
 				],
@@ -65,7 +65,7 @@
 						"PlantType": "tallnut",
 						"MaxWeightFactor": 0.25,
 						"MaxCount": 5,
-						"Level": 0,
+						"Level": 2,
 						"Weight": 3
 					},
 					{
@@ -74,7 +74,7 @@
 						"Weight": 2
 					},
 					{
-						"PlantType": "stunion",
+						"PlantType": "aloe",
 						"Level": 0,
 						"Weight": 1
 					}
@@ -189,7 +189,7 @@
 					},
 					{
 						"Row": "5",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					}
 				]
 			}
@@ -224,7 +224,7 @@
 				"Zombies": [
 					{
 						"Row": "1",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "2",
@@ -246,7 +246,7 @@
 				"Zombies": [
 					{
 						"Row": "3",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Type": "RTID(prospector@ZombieTypes)"
@@ -272,7 +272,7 @@
 				"Zombies": [
 					{
 						"Row": "1",
-						"Type": "RTID(west_bull@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "2",
@@ -280,7 +280,7 @@
 					},
 					{
 						"Row": "4",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "5",
@@ -298,7 +298,7 @@
 				"Zombies": [
 					{
 						"Row": "3",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "4",
@@ -314,10 +314,10 @@
 					},
 					{
 						"Row": "5",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(west_bull@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Type": "RTID(prospector@ZombieTypes)"
@@ -345,7 +345,7 @@
 					},
 					{
 						"Row": "3",
-						"Type": "RTID(west_bull@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "5",
@@ -383,23 +383,23 @@
 				"Zombies": [
 					{
 						"Row": "1",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "2",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "3",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "4",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "5",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "1",
@@ -433,7 +433,7 @@
 				"Zombies": [
 					{
 						"Row": "3",
-						"Type": "RTID(west_bull@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "4",
@@ -445,7 +445,7 @@
 					},
 					{
 						"Row": "4",
-						"Type": "RTID(west_bull@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					}
 				]
 			}
@@ -509,15 +509,15 @@
 					},
 					{
 						"Row": "2",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "3",
-						"Type": "RTID(west_bull@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "4",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "5",
@@ -529,11 +529,11 @@
 					},
 					{
 						"Row": "2",
-						"Type": "RTID(west_bull@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "3",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "4",
@@ -549,11 +549,11 @@
 					},
 					{
 						"Row": "2",
-						"Type": "RTID(west_bull@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "3",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "4",
@@ -565,7 +565,7 @@
 					},
 					{
 						"Row": "1",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Row": "3",
@@ -573,7 +573,7 @@
 					},
 					{
 						"Row": "5",
-						"Type": "RTID(birthday_armor2@ZombieTypes)"
+						"Type": "RTID(birthday_armor1@ZombieTypes)"
 					},
 					{
 						"Type": "RTID(prospector@ZombieTypes)"

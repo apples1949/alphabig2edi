@@ -89,8 +89,6 @@
 					"bigtime_peanut",
 					"electricpeashooter",
 					"shadowpeashooter",
-					"redstinger",
-					"bigtime_redstinger",
 					"hocus",
 					"bigtime_hocus",
 					"tumbleweed",
@@ -138,6 +136,8 @@
 					"dusklobber",
 					"blastberry",
 					"pyrevine",
+					"redstinger",
+					"bigtime_redstinger",
 					"bloomerang",
 					"cactus",
 					"fumeshroom",
@@ -524,17 +524,17 @@
 				"ParallaxSpeedLayerForeground1": 1.1,
 				"ParallaxSpeedLayer1": 0.9,
 				"ParallaxSpeedLayer2": 0.8,
-				"ParallaxSpeedLayer3": 0.7000000000000001,
-				"ParallaxSpeedLayer4": 0.6000000000000001,
+				"ParallaxSpeedLayer3": 0.7,
+				"ParallaxSpeedLayer4": 0.6,
 				"ParallaxSpeedLayer5": 0.5,
 				"ParallaxSpeedLayer6": 0.4,
-				"ParallaxSpeedLayer7": 0.30000000000000004,
+				"ParallaxSpeedLayer7": 0.3,
 				"ParallaxSpeedLayer8": 0.2,
 				"ParallaxSpeedLayer9": 0.1,
 				"ParallaxSpeedLayer10": 0.0,
 				"PathUnlockSpeed": 400.0,
 				"SnapGrid": {
-					"x": 62.349999999999994,
+					"x": 62.35,
 					"y": 32.9
 				},
 				"EditorSafeZoneYStart": 124.0,
@@ -560,8 +560,8 @@
 				"ZombieCountdownFirstWaveSecs": 20.0,
 				"ZombieCountdownFirstWaveConveyorSecs": 6.0,
 				"ZombieCountdownHugeWaveDelay": 5.0,
-				"MinNextWaveHealthPercentage": 0.24000000000000002,
-				"MaxNextWaveHealthPercentage": 0.32000000000000006
+				"MinNextWaveHealthPercentage": 0.24,
+				"MaxNextWaveHealthPercentage": 0.32
 			}
 		},
 		{
@@ -2493,12 +2493,12 @@
 						"PeakDurationBase": 20,
 						"PeakDurationAdd": 100,
 						"TargetRatioBase": 0.45,
-						"TargetRatioAdd": 0.6500000000000001,
-						"TargetVarMin": -0.35000000000000003,
-						"TargetVarMax": 0.15000000000000002,
-						"PeakRatioBase": 0.30000000000000004,
+						"TargetRatioAdd": 0.65,
+						"TargetVarMin": -0.35,
+						"TargetVarMax": 0.15,
+						"PeakRatioBase": 0.3,
 						"PeakRatioAdd": 1.3,
-						"PeakRatioVarMin": -0.35000000000000003,
+						"PeakRatioVarMin": -0.35,
 						"PeakRatioVarMax": 0.25,
 						"MinSeed": 10000,
 						"MaxSeed": 75000
@@ -2583,7 +2583,7 @@
 				"ActivationGridX": 5.5,
 				"MaxKicks": 5,
 				"LeftMostKickGridX": 3,
-				"TossTime": 0.35000000000000003,
+				"TossTime": 0.35,
 				"TossHeight": 70.0,
 				"TossDistance": -120.0,
 				"KickRectFudgeFactor": 40,
@@ -2625,7 +2625,7 @@
 				"SoundOnWalk": "",
 				"SoundOnIdle": "",
 				"ActivationGridRangeStartX": 6.6,
-				"ActivationGridRangeWidth": 0.7000000000000001,
+				"ActivationGridRangeWidth": 0.7,
 				"ActivationGridX": 7,
 				"ZombieTailStaggerX": 20,
 				"ZombieAnnoyingGridX": 8,
@@ -2757,7 +2757,7 @@
 				"DinoTyrannosaurus"
 			],
 			"objdata": {
-				"Speed": 0.6000000000000001,
+				"Speed": 0.6,
 				"HitRect": {
 					"mX": 10,
 					"mY": 10,
@@ -4682,7 +4682,7 @@
 					[
 						{
 							"Condition": "speeddown2",
-							"Value": 0.6700000000000002
+							"Value": 0.67
 						}
 					],
 					[

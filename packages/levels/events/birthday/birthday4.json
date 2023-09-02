@@ -77,6 +77,10 @@
 					{
 						"PlantType": "stunion",
 						"Level": 2
+					},
+					{
+						"PlantType": "springbean",
+						"Level": 0
 					}
 				],
 				"SelectionMethod": "preset"

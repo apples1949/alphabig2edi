@@ -16173,9 +16173,6 @@
 				"ConditionImmunities": [
 					{
 						"Condition": "hypnotized"
-					},
-					{
-						"Condition": "potionsuper3"
 					}
 				],
 				"HitRect": {

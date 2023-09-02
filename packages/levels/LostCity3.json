@@ -5,7 +5,8 @@
 			"objclass": "LevelDefinition",
 			"objdata": {
 				"Description": "E  C  L  I  S  E",
-				"FirstRewardParam": "big_moneybag",
+				"FirstRewardParam": "spikeweed",
+				"FirstRewardType": "unlock_plant",
 				"FirstIntroNarrative": "LOSTCITY3_INTRO",
 				"ReplayIntroNarrative": "LOSTCITY3_INTRO",
 				"StartingSun": 50,

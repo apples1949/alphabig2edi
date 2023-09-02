@@ -1758,28 +1758,6 @@
 					},
 					{
 						"m_position": {
-							"x": 80.54545454545429,
-							"y": 378.6363636363637
-						},
-						"m_eventId": 3,
-						"m_eventType": "level",
-						"m_name": "modern_level_dangerroom",
-						"m_parentEvent": "",
-						"m_unlockedFrom": "modern_gate",
-						"m_visibleFrom": "",
-						"m_autoVisible": true,
-						"m_isChallengeType": false,
-						"m_dataString": "modern_dangerroom",
-						"m_levelNodeType": "danger",
-						"m_displayText": "10011",
-						"m_unlockedNarrationID": "",
-						"m_completedNarrationID": "",
-						"m_worldMapTutorial": "none",
-						"m_worldMapTutorialVisibleWhen": "unlocked",
-						"m_toggleName": ""
-					},
-					{
-						"m_position": {
 							"x": 3666.8,
 							"y": 263
 						},

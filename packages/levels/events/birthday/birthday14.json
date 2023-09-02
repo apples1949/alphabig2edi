@@ -100,8 +100,8 @@
 						"birthday_armor2"
 					]
 				},
-				"Description": "Defeat 115 normal zombies.",
-				"NumZombiesToKill": 115
+				"Description": "Defeat 90 normal zombies.",
+				"NumZombiesToKill": 90
 			}
 		},
 		{
@@ -114,37 +114,37 @@
 					{
 						"GridX": 5,
 						"GridY": 0,
-						"TypeName": "iceage_imp",
+						"TypeName": "tutorial_imp",
 						"Condition": "icecubed"
 					},
 					{
 						"GridX": 6,
 						"GridY": 0,
-						"TypeName": "iceage_imp",
+						"TypeName": "tutorial_imp",
 						"Condition": "icecubed"
 					},
 					{
 						"GridX": 5,
 						"GridY": 1,
-						"TypeName": "iceage_imp",
+						"TypeName": "tutorial_imp",
 						"Condition": "icecubed"
 					},
 					{
 						"GridX": 7,
 						"GridY": 1,
-						"TypeName": "iceage_imp",
+						"TypeName": "tutorial_imp",
 						"Condition": "icecubed"
 					},
 					{
 						"GridX": 4,
 						"GridY": 2,
-						"TypeName": "iceage_imp",
+						"TypeName": "tutorial_imp",
 						"Condition": "icecubed"
 					},
 					{
 						"GridX": 6,
 						"GridY": 2,
-						"TypeName": "iceage_imp",
+						"TypeName": "tutorial_imp",
 						"Condition": "icecubed"
 					}
 				]
@@ -353,7 +353,7 @@
 					},
 					{
 						"Row": "5",
-						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
 					}
 				]
 			}
@@ -438,7 +438,7 @@
 					},
 					{
 						"Row": "5",
-						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
 					}
 				]
 			}
@@ -480,7 +480,7 @@
 					},
 					{
 						"Row": "2",
-						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
 					},
 					{
 						"Row": "5",
@@ -554,7 +554,7 @@
 					},
 					{
 						"Row": "3",
-						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
 					},
 					{
 						"Row": "4",
@@ -566,7 +566,7 @@
 					},
 					{
 						"Row": "1",
-						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
 					},
 					{
 						"Row": "2",
@@ -589,7 +589,7 @@
 					},
 					{
 						"Row": "2",
-						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
 					},
 					{
 						"Row": "3",
@@ -663,7 +663,7 @@
 					},
 					{
 						"Row": "4",
-						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
 					},
 					{
 						"Row": "5",
@@ -799,7 +799,7 @@
 				"Zombies": [
 					{
 						"Row": "1",
-						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
 					},
 					{
 						"Row": "2",
@@ -807,7 +807,7 @@
 					},
 					{
 						"Row": "3",
-						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
 					},
 					{
 						"Row": "4",
@@ -815,7 +815,7 @@
 					},
 					{
 						"Row": "5",
-						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+						"Type": "RTID(birthday_gargantuar@ZombieTypes)"
 					},
 					{
 						"Row": "1",

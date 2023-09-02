@@ -11,11 +11,11 @@
 					"RTID(DefaultZombieWinCondition@LevelModules)",
 					"RTID(ZombiesDeadWinCon@LevelModules)",
 					"RTID(ModernMowers@LevelModules)",
-					"RTID(SeedBank@LevelModules)",
+					"RTID(SeedBankFreeChoose@LevelModules)",
 					"RTID(NewWaves@LevelModules)"
 				],
 				"Name": "BRD-9: Continual Cylindrical Containers",
-				"StageModule": "RTID(BirthđayStage@LevelModules)"
+				"StageModule": "RTID(BirthdayStage@LevelModules)"
 			}
 		},
 		{

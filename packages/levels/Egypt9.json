@@ -541,7 +541,7 @@
 				"GroupSize": 1,
 				"Zombies": [
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					}
 				]
 			}
@@ -560,10 +560,10 @@
 				"GroupSize": 1,
 				"Zombies": [
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					}
 				]
 			}
@@ -582,16 +582,16 @@
 				"GroupSize": 1,
 				"Zombies": [
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					}
 				]
 			}
@@ -610,19 +610,19 @@
 				"GroupSize": 1,
 				"Zombies": [
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					}
 				]
 			}
@@ -641,19 +641,19 @@
 				"GroupSize": 1,
 				"Zombies": [
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					}
 				]
 			}
@@ -672,19 +672,19 @@
 				"GroupSize": 1,
 				"Zombies": [
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					},
 					{
-						"Type": "RTID(camel_manyhump@ZombieTypes)"
+						"Type": "RTID(camel_onehump@ZombieTypes)"
 					}
 				]
 			}

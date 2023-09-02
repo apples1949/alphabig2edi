@@ -1,17 +1,15 @@
 {
-	"#comment": "1-4",
+	"#comment": "1-5",
 	"objects": [
 		{
 			"objclass": "LevelDefinition",
 			"objdata": {
 				"Description": "E  C  L  I  S  E",
 				"ForceToWorldMap": true,
-				"FirstRewardParam": "iceburg",
-				"FirstRewardType": "unlock_plant",
 				"FirstIntroNarrative": "EGYPT4_INTRO",
 				"ReplayIntroNarrative": "EGYPT4_INTRO",
 				"StartingSun": 50,
-				"LevelNumber": 4,
+				"LevelNumber": 5,
 				"ResourceGroupNames": [
 					"DelayLoad_Background_Beach",
 					"DelayLoad_Background_Beach_Compressed"
@@ -28,7 +26,7 @@
 					"RTID(GI@CurrentLevel)"
 				],
 				"MusicType": "MiniGame_A",
-				"Name": "1-4: Third Generation",
+				"Name": "1-5: Third Generation",
 				"StageModule": "RTID(EgyptStage@LevelModules)"
 			}
 		},
